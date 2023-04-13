@@ -1,0 +1,26 @@
+[
+  { 
+    "repository"   : "bluehomewu/android_device_xiaomi_elish-prebuilt",
+    "target_path"  : "device/xiaomi/elish-prebuilt",
+    "branch"       : "arrow-13.0",
+    "remote"       : "gitlab"
+  },
+  {
+    "repository"   : "Kscope-Devices/android_kernel_xiaomi_sm8250",
+    "target_path"  : "kernel/xiaomi/elish",
+    "branch"       : "arrow-13.0",
+    "remote"       : "github"
+  },
+  { 
+    "repository"   : "Edward-Projects/android_vendor_xiaomi_elish",
+    "target_path"  : "vendor/xiaomi/elish",
+    "branch"       : "arrow-13.0",
+    "remote"       : "github"
+  },
+  {
+    "repository"   : "ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt",
+    "target_path"  : "packages/apps/GCamGOPrebuilt",
+    "branch"       : "arrow-13.0",
+    "remote"       : "github"
+  }
+]
