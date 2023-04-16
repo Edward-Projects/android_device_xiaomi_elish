@@ -28,7 +28,6 @@ import vendor.xiaomi.hardware.touchfeature.V1_0.ITouchFeature;
 import org.lineageos.settings.dirac.DiracUtils;
 import org.lineageos.settings.doze.DozeUtils;
 import org.lineageos.settings.utils.FileUtils;
-import org.lineageos.settings.keyboard.XiaomiKeyboardUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
 
@@ -52,7 +51,9 @@ public class BootCompletedReceiver extends BroadcastReceiver {
             mTouchFeature.setTouchMode(20, stylus_prefs.getInt(SHARED_STYLUS, 0));
         } catch (Exception e) {
         }
-        XiaomiKeyboardUtils.enableKeyboardDevice();
-        XiaomiKeyboardUtils.startService(context);
+        if (keyboard_prefs.getInt(SHARED_KEYBOARD, 1) == 0)
+            FileUtils.writeLine("/sys/devices/platform/soc/soc:xiaomi_keyboard/xiaomi_keyboard_conn_status", "enable_keyboard");
+        else
+            FileUtils.writeLine("/sys/devices/platform/soc/soc:xiaomi_keyboard/xiaomi_keyboard_conn_status", "disable_keyboard");
     }
 }
