@@ -24,4 +24,4 @@ PRODUCT_NAME := arrow_elish
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-BUILD_FINGERPRINT := Xiaomi/elish/elish:11/RKQ1.200826.002/V13.0.10.0.RKYCNXM:user/release-keys
+BUILD_FINGERPRINT := Xiaomi/elish/elish:13/RKQ1.211001.001/V14.0.3.0.TKYCNXM:user/release-keys
