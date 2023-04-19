@@ -13,6 +13,7 @@ LOCAL_OVERRIDES_PACKAGES := \
    Telecom \
    TelephonyProvider \
    com.google.android.dialer.support \
+   DevicePersonalizationPrebuiltPixel2020 \
    messaging
 
 LOCAL_UNINSTALLABLE_MODULE := true
