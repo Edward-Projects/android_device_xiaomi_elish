@@ -1,5 +1,5 @@
 #!/vendor/bin/sh
-# Copyright (C) 2021 KudProject Development
+# Copyright (C) 2024 Paranoid Android
 # SPDX-License-Identifier: GPL-3.0-or-later OR Apache-2.0
 
 LOG_TAG="MiSetBtMac"
