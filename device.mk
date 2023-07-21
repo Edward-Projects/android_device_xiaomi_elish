@@ -214,7 +214,6 @@ PRODUCT_PACKAGES += \
     AOSPAElishFrameworks \
     AOSPAElishSystemUI \
     FrameworksResTarget \
-    ElishCarrierConfig \
     ElishFrameworks \
     ElishSettings \
     ElishSettingsProvider \
