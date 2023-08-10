@@ -269,6 +269,10 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-service \
     libsensorndkbridge
 
+# Setup Wizard
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    ro.setupwizard.rotation_locked=false
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 30
 
