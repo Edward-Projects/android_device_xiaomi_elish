@@ -18,10 +18,11 @@ BOARD_SEPOLICY_DIRS += \
 
 # Xiaomi Sepolicy
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
-    device/xiaomi/pipa/sepolicy/private/xiaomi/devicesettings
+    device/xiaomi/elish/sepolicy/private/xiaomi/devicesettings \
+    device/xiaomi/elish/sepolicy/private/xiaomi/display \
 
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
-    device/xiaomi/pipa/sepolicy/public/xiaomi/devicesettings
+    device/xiaomi/elish/sepolicy/public/xiaomi/devicesettings
 
 BOARD_VENDOR_SEPOLICY_DIRS += \
     device/xiaomi/elish/sepolicy/vendor/xiaomi/audio \
