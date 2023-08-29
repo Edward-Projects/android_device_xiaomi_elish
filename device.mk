@@ -325,3 +325,7 @@ PRODUCT_COPY_FILES += \
 # WFD
 PRODUCT_PACKAGES += \
     libwfdaac_vendor:32
+
+# XiaomiParts
+PRODUCT_PACKAGES += \
+    XiaomiParts
