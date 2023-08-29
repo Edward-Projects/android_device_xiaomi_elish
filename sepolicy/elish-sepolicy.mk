@@ -17,7 +17,13 @@ BOARD_SEPOLICY_DIRS += \
     device/xiaomi/elish/sepolicy/vendor/qcom
 
 # Xiaomi Sepolicy
-BOARD_SEPOLICY_DIRS += \
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
+    device/xiaomi/pipa/sepolicy/private/xiaomi/devicesettings
+
+SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
+    device/xiaomi/pipa/sepolicy/public/xiaomi/devicesettings
+
+BOARD_VENDOR_SEPOLICY_DIRS += \
     device/xiaomi/elish/sepolicy/vendor/xiaomi/audio \
     device/xiaomi/elish/sepolicy/vendor/xiaomi/bluetooth \
     device/xiaomi/elish/sepolicy/vendor/xiaomi/battery \
