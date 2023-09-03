@@ -19,18 +19,17 @@ BOARD_SEPOLICY_DIRS += \
 # Xiaomi Sepolicy
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/xiaomi/elish/sepolicy/private/xiaomi/devicesettings \
-    device/xiaomi/elish/sepolicy/private/xiaomi/display \
+    device/xiaomi/elish/sepolicy/private/xiaomi/display
 
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
     device/xiaomi/elish/sepolicy/public/xiaomi/devicesettings
 
 BOARD_VENDOR_SEPOLICY_DIRS += \
     device/xiaomi/elish/sepolicy/vendor/xiaomi/audio \
-    device/xiaomi/elish/sepolicy/vendor/xiaomi/bluetooth \
     device/xiaomi/elish/sepolicy/vendor/xiaomi/battery \
+    device/xiaomi/elish/sepolicy/vendor/xiaomi/bluetooth \
     device/xiaomi/elish/sepolicy/vendor/xiaomi/camera \
     device/xiaomi/elish/sepolicy/vendor/xiaomi/fingerprint \
-    device/xiaomi/elish/sepolicy/vendor/xiaomi/ir \
     device/xiaomi/elish/sepolicy/vendor/xiaomi/modem \
     device/xiaomi/elish/sepolicy/vendor/xiaomi/power_supply \
     device/xiaomi/elish/sepolicy/vendor/xiaomi/sensors \
