@@ -29,6 +29,7 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
     device/xiaomi/elish/sepolicy/vendor/xiaomi/battery \
     device/xiaomi/elish/sepolicy/vendor/xiaomi/bluetooth \
     device/xiaomi/elish/sepolicy/vendor/xiaomi/camera \
+    device/xiaomi/elish/sepolicy/vendor/xiaomi/dolby \
     device/xiaomi/elish/sepolicy/vendor/xiaomi/fingerprint \
     device/xiaomi/elish/sepolicy/vendor/xiaomi/modem \
     device/xiaomi/elish/sepolicy/vendor/xiaomi/power_supply \
