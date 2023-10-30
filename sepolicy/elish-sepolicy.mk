@@ -32,6 +32,7 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
     device/xiaomi/elish/sepolicy/vendor/xiaomi/dolby \
     device/xiaomi/elish/sepolicy/vendor/xiaomi/fingerprint \
     device/xiaomi/elish/sepolicy/vendor/xiaomi/modem \
+    device/xiaomi/elish/sepolicy/vendor/xiaomi/peripheralmanager \
     device/xiaomi/elish/sepolicy/vendor/xiaomi/power_supply \
     device/xiaomi/elish/sepolicy/vendor/xiaomi/sensors \
     device/xiaomi/elish/sepolicy/vendor/xiaomi/thermald \
