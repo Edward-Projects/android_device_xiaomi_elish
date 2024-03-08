@@ -117,7 +117,8 @@ BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_RAMDISK_OFFSET := 0x01000000
 
-KERNEL_DEFCONFIG := vendor/elish_user_defconfig
+KERNEL_DEFCONFIG := kona-perf_defconfig
+KERNEL_FRAGMENT_CONFIG := vendor/kona-perf_defconfig vendor/xiaomi/sm8250-common.config vendor/xiaomi/elish.config
 
 KERNEL_FULL_LLVM := true
 
