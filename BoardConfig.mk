@@ -66,9 +66,6 @@ BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_BOOT_HEADER_VERSION := 3
 BOARD_MKBOOTIMG_ARGS := --header_version $(BOARD_BOOT_HEADER_VERSION)
 
-# DTBO
-BOARD_KERNEL_SEPARATED_DTBO := true
-
 # Display
 TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := 0x546C00000000
 TARGET_NO_RAW10_CUSTOM_FORMAT := true
@@ -157,3 +154,6 @@ TARGET_USERIMAGES_USE_F2FS := true
 
 # SEPolicy
 -include device/xiaomi/elish/sepolicy/elish-sepolicy.mk
+
+# Prebuilt-Kernel
+include device/xiaomi/elish-kernel/BoardConfigKernel.mk

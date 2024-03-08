@@ -260,6 +260,9 @@ PRODUCT_COPY_FILES += \
 # Platform
 TARGET_BOARD_PLATFORM := kona
 
+# Prebuilt Kernel
+$(call inherit-product, device/xiaomi/elish-kernel/kernel.mk)
+
 # QTI
 TARGET_COMMON_QTI_COMPONENTS := \
     adreno \
