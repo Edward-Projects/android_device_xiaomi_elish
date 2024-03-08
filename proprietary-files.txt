@@ -842,7 +842,6 @@ vendor/etc/sensors/config/sns_tilt_sw_disabled.json|ea53704a132724af3e3d2e4f31d2
 vendor/etc/sensors/config/sns_tilt_to_wake.json|fd00a84bd7a5af530ee2b061e7f877b4ae3c0a5d
 vendor/etc/sensors/config/sx932x_0.json|87683117e13c32b985ad2d0795c8743e72de0a05
 vendor/etc/sensors/config/sx932x_1.json|f50702691ce37f090daccca26e424f88e0572dd5
-vendor/etc/sensors/config/sx937x_reg_0.json|89e4aff9403e95995bbf21ed4b30b3ea6f6895c8
 vendor/etc/sensors/config/tcs3701.json|0b6aefa5a7b66210d34678bb1a840ee54ed499bf
 vendor/etc/sensors/judge_calibrated.json|0df927c4766c3a54267bab638787d564c17f8d85
 vendor/etc/sensors/sns_reg_config|cea8c9f674c039de77bb7f743d8a9122ab8b6897
