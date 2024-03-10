@@ -1000,6 +1000,8 @@ vendor/lib64/mediadrm/libwvdrmengine.so|0bf46f9297797c8ce7e8f6f4302b8c33db3d7e6b
 # WiFi - MIUI
 vendor/bin/cnss-daemon|407ae4971644e67922c4bab05329d0d7e8eb05fd
 vendor/bin/nv_mac|5de575cd0c3d0d5c79dcfd77df87eb69286da800
+vendor/etc/wifi/aoa_cldb_falcon.bin|7511e868c40e66e9758568b7112894cbce2650a4
+vendor/etc/wifi/aoa_cldb_swl14.bin|2a3be07a8f24bc1b9798d07c7133b0f71b77738f
 
 # WiFi Display
 vendor/bin/wfdhdcphalservice
